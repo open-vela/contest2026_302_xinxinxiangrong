@@ -1,0 +1,27 @@
+menuconfig KNOWLEDGE_CARDS_DEMO
+	bool "xk Knowledge Cards"
+	default n
+	depends on GRAPHICS_LVGL
+	depends on LV_USE_NUTTX
+	select MEDIA
+	select NETUTILS_CJSON
+	select CRYPTO_MBEDTLS
+	select LV_FONT_MONTSERRAT_20
+	select LV_FONT_MONTSERRAT_24
+	---help---
+		A round-watch learning-card UI derived from the xk knowledge-outline
+		project. It supports local JSON topic decks, an offline CSAPP example,
+		and push-to-talk recording via
+		OpenVela Media Recorder, and real Volcengine speech recognition.
+
+if KNOWLEDGE_CARDS_DEMO
+
+config KNOWLEDGE_CARDS_PRIORITY
+	int "Knowledge Cards task priority"
+	default 100
+
+config KNOWLEDGE_CARDS_STACKSIZE
+	int "Knowledge Cards task stack size"
+	default 32768
+
+endif

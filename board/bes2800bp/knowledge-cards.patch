@@ -1,0 +1,52 @@
+diff --git a/boards/best1700_ep/aos_evb/configs/ap/defconfig b/boards/best1700_ep/aos_evb/configs/ap/defconfig
+index fca41af..52f2a50 100644
+--- a/boards/best1700_ep/aos_evb/configs/ap/defconfig
++++ b/boards/best1700_ep/aos_evb/configs/ap/defconfig
+@@ -126,6 +126,7 @@ CONFIG_ETC_ROMFS=y
+ CONFIG_EVENT_FD=y
+ CONFIG_EXAMPLES_HELLO=y
+ CONFIG_EXAMPLES_LVGLDEMO=y
++CONFIG_KNOWLEDGE_CARDS_DEMO=y
+ CONFIG_EXPERIMENTAL=y
+ CONFIG_FB_BUFFER_SECTION=".psram_nc_bss"
+ CONFIG_FB_OVERLAY=y
+@@ -210,6 +211,7 @@ CONFIG_LV_USE_NUTTX=y
+ CONFIG_LV_USE_NUTTX_TOUCHSCREEN=y
+ CONFIG_LV_USE_QRCODE=y
+ CONFIG_MEDIA=y
++CONFIG_MEDIA_SERVER_CPUNAME="audio"
+ CONFIG_MEDIA_TOOL=y
+ CONFIG_MM_HEAP_MEMPOOL_THRESHOLD=256
+ CONFIG_MQ_MAXMSGSIZE=64
+diff --git a/boards/best1700_ep/aos_evb/src/etc/init.d/rcS.ap b/boards/best1700_ep/aos_evb/src/etc/init.d/rcS.ap
+index 1d52f8d..027c7f6 100755
+--- a/boards/best1700_ep/aos_evb/src/etc/init.d/rcS.ap
++++ b/boards/best1700_ep/aos_evb/src/etc/init.d/rcS.ap
+@@ -40,8 +40,6 @@ bluetoothd &
+ 
+ #ifdef CONFIG_BESWATCH
+ beswatch &
+-#else
+-lvgldemo widgets &
+ #endif
+ 
+ #ifdef CONFIG_KVDB_PERSIST_PATH
+@@ -49,3 +47,18 @@ lvgldemo widgets &
+ mkdir -p CONFIG_KVDB_PERSIST_PATH
+ #endif
+ #endif
++
++#ifdef CONFIG_FS_TMPFS
++mkdir -p /data
++mount -t tmpfs none /data
++#endif
++
++#ifdef CONFIG_MEDIA_SERVER
++echo "media server start"
++mediad &
++#endif
++
++#ifdef CONFIG_KNOWLEDGE_CARDS_DEMO
++echo "knowledge_cards start"
++knowledge_cards CSAPP &
++#endif

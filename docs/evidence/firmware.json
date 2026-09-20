@@ -1,0 +1,7 @@
+{
+  "file": "cmake_out/best1700_ep/aos_evb/out/nuttx_ap.bin",
+  "size_bytes": 2528840,
+  "sha256": "4a6c35f52b4acddff6096cf289c8be30416b349db5e1a126a56daac75f0e2688",
+  "scope": "AP build for the preliminary UI prototype; static demo text; microphone and AI features are not hardware validated.",
+  "hardware_validation": "not completed"
+}

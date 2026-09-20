@@ -1,0 +1,13 @@
+Knowledge Cards / 知识闪卡 — contest2026_302_xinxinxiangrong
+Project code: Apache License 2.0; existing upstream notices are retained.
+
+kc_font_16/20/24 resources (kc_font_cjk_16.c, kc_font_20.c, kc_font_24.c)
+are generated from LVGL demos/multilang/assets/fonts/NotoSansSC-Medium.otf.
+Noto Sans SC: SIL Open Font License 1.1; see LICENSES/NotoSansSC-OFL.txt.
+These generated font resources are not relicensed under Apache-2.0.
+
+The application reuses openvela AI Agent audio_capture, voice_asr, volc_asr,
+and config_store sources by build-time reference. Their upstream notices
+and licenses apply. BES SDK libraries/firmware remain under original terms.
+CSAPP is a topic/reference to Computer Systems: A Programmer's Perspective;
+the short learning summaries are not a copy of textbook pages or figures.

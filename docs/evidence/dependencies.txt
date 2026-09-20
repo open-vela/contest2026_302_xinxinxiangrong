@@ -1,0 +1,7 @@
+vendor/bes 36465377d944a575ce8a0c7ba45259f5c6c61ea8
+packages/ai_agent 31faed70f683a6f5e690437c5507891360f0814a
+apps dcc6a95c3b323e533c98fde8fb209f99e24f0fdd
+apps/graphics/lvgl/lvgl 0f2a49f588505a00e8b46e25a34581c87291a62a
+apps/netutils/cjson/cJSON 48ab0a605ddab58ae91c8bc4a6c47191502a2971
+nuttx dd92bcf425738734d1b8aed09c2bd4dbe3f2e438
+packages/demos 08b94dd9cdf6e5bf7aad855c6ba43afd75bc5d2d

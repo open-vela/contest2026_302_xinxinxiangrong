@@ -1,0 +1,106 @@
+LIBCLANG_PATH set to: /home/mi/openvela/prebuilts/rust/linux/extra_libs
+including vendor/infineon/boards/aurix/build/vendorsetup.sh
+including vendor/infineon/boards/aurix_tc3/build/vendorsetup.sh
+including vendor/openvela/boards/build/vendorsetup.sh
+grep: dor/bes/boards/best1700_ep/aos_evb/configs/ap/defconfig: 没有那个文件或目录
+ lunch vendor/bes/boards/best1700_ep/aos_evb/configs/ap cmake_out/aos_evb_ap 
+The current build configuration lunched with: [32m[bes]-[aos_evb]-[ap]![0m
+
+[32m#### BINARY directory is set: /home/mi/openvela/cmake_out/aos_evb_ap[0m
+
+  cmake --build /home/mi/openvela/cmake_out/aos_evb_ap -j8  --
+[0/1] Re-running CMake...
+-- NuttX Host Tools
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mi/openvela/cmake_out/aos_evb_ap/bin_host
+-- ╭─────────────────────────────────────────────────╮
+-- │  Vela build custom modules base on NuttX build  |
+-- ╰─────────────────────────────────────────────────╯
+-- Prebuilt BSP libraries: /home/mi/openvela/vendor/bes/boards/best1700_ep/aos_evb/configs/ap/libbesboard_ap.a;/home/mi/openvela/vendor/bes/boards/best1700_ep/aos_evb/configs/ap/libbeschip_ap.a
+-- libmetal version: 1.7.0 (/home/mi/openvela/nuttx)
+-- Build type:  
+-- Host:    Linux/x86_64
+-- Target:  NuttX/arm
+-- Machine: arm
+-- Vendor: none
+-- open-amp version: 1.7.0 (/home/mi/openvela/nuttx/openamp/open-amp)
+-- Host:    Linux/x86_64
+-- Target:  NuttX/arm
+-- Machine: arm
+-- C_FLAGS :  -Wall -Wextra
+-- best1700 library mode enabled for ap
+-- Using prebuilt best1700 ap BSP archive: /home/mi/openvela/vendor/bes/boards/best1700_ep/aos_evb/configs/ap/libnx_bestbsp_ap.a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mi/openvela/cmake_out/aos_evb_ap
+[1/29] cd /home/mi/openvela/cmake_out/aos_evb_ap/libs/libc/misc && /home/mi/openvela/prebuilts/tools/cmake/bin/cmake -E touch /home/mi/openvela/nuttx/libs/libc/misc/lib_utsname.c
+[2/29] Generating bin output directories
+[3/29] cd /home/mi/openvela/nuttx && /home/mi/openvela/prebuilts/tools/cmake/bin/cmake -DKCONFIG_CONFIG=/home/mi/openvela/vendor/bes/boards/best1700_ep/aos_evb/configs/ap/defconfig -DNUTTX_DIR=/home/mi/openvela/nuttx -DCMAKE_BINARY_DIR=/home/mi/openvela/cmake_out/aos_evb_ap -P /home/mi/openvela/nuttx/cmake/nuttx_generate_dts.cmake
+[4/29] Building C object apps/external/android/CMakeFiles/android.dir/dummy.c.o
+[5/29] Building C object apps/CMakeFiles/apps.dir/dummy.c.o
+[6/29] Building C object CMakeFiles/nuttx.dir/empty.c.o
+[7/29] Linking C static library apps/external/android/libandroid.a
+[8/29] Building C object boards/CMakeFiles/board.dir/__/dummy.c.o
+[9/29] Linking C static library boards/libboard.a
+[10/29] Building C object libs/libc/CMakeFiles/c.dir/misc/lib_utsname.c.o
+[11/29] Building C object apps/packages/demos/knowledge_cards/CMakeFiles/apps_knowledge_cards.dir/src/kc_deck.c.o
+[12/29] Building C object apps/packages/demos/knowledge_cards/CMakeFiles/apps_knowledge_cards.dir/src/knowledge_cards_main.c.o
+[13/29] Linking C static library apps/packages/demos/knowledge_cards/libapps_knowledge_cards.a
+[14/29] Linking C static library apps/libapps.a
+[15/29] Linking C static library libs/libc/libc.a
+[16/29] Linking CXX executable nuttx
+Memory region         Used Size  Region Size  %age Used
+             ROM:           0 B        96 KB      0.00%
+           FLASH:     2310536 B     14784 KB     15.26%
+        FLASH_NC:      14784 KB     14784 KB    100.00%
+             RAM:      827128 B    2097120 B     39.44%
+            RAMX:      140036 B         1 MB     13.35%
+      RAM_EXTRA0:           0 B          0 B
+           PSRAM:     2281312 B        55 MB      3.96%
+        PSRAM_NC:     3975808 B        55 MB      6.89%
+     AON_MAILBOX:         328 B      45024 B      0.73%
+[17/29] Generating nuttx.bin
+[18/29] Generating allsyms_first.c
+[19/29] Building C object CMakeFiles/first_link.dir/allsyms_first.c.o
+[20/29] Linking CXX executable first_link
+Memory region         Used Size  Region Size  %age Used
+             ROM:           0 B        96 KB      0.00%
+           FLASH:     2528840 B     14784 KB     16.70%
+        FLASH_NC:      14784 KB     14784 KB    100.00%
+             RAM:      827128 B    2097120 B     39.44%
+            RAMX:      140036 B         1 MB     13.35%
+      RAM_EXTRA0:           0 B          0 B
+           PSRAM:     2346464 B        55 MB      4.07%
+        PSRAM_NC:     4040960 B        55 MB      7.01%
+     AON_MAILBOX:         328 B      45024 B      0.73%
+[21/29] Generating allsyms_second.c
+[22/29] Building C object CMakeFiles/second_link.dir/allsyms_second.c.o
+[23/29] Linking CXX executable second_link
+Memory region         Used Size  Region Size  %age Used
+             ROM:           0 B        96 KB      0.00%
+           FLASH:     2528840 B     14784 KB     16.70%
+        FLASH_NC:      14784 KB     14784 KB    100.00%
+             RAM:      827128 B    2097120 B     39.44%
+            RAMX:      140036 B         1 MB     13.35%
+      RAM_EXTRA0:           0 B          0 B
+           PSRAM:     2346464 B        55 MB      4.07%
+        PSRAM_NC:     4040960 B        55 MB      7.01%
+     AON_MAILBOX:         328 B      45024 B      0.73%
+[24/29] Generating allsyms_final.c
+[25/29] Building C object CMakeFiles/final_nuttx.dir/allsyms_final.c.o
+[26/29] Linking CXX executable final_nuttx
+Memory region         Used Size  Region Size  %age Used
+             ROM:           0 B        96 KB      0.00%
+           FLASH:     2528840 B     14784 KB     16.70%
+        FLASH_NC:      14784 KB     14784 KB    100.00%
+             RAM:      827128 B    2097120 B     39.44%
+            RAMX:      140036 B         1 MB     13.35%
+      RAM_EXTRA0:           0 B          0 B
+           PSRAM:     2346464 B        55 MB      4.07%
+        PSRAM_NC:     4040960 B        55 MB      7.01%
+     AON_MAILBOX:         328 B      45024 B      0.73%
+[27/29] Generating System.map
+[28/29] Generating: nuttx_ap.bin
+
+[0;32m#### build completed successfully (11 seconds) ####[00m

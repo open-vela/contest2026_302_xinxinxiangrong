@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="git" fetch="../" />
+  <remote name="openvela" fetch="../open-vela/" />
+
+  <default remote="openvela" revision="dev-ai-contest-2026" />
+
+  <project name=".claude" revision="fa2ead7db669912bce49fb04e9876505b5455853" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_benchmarks_coremark" path="apps/benchmarks/coremark/coremark" revision="d9d3c2a27d56c0304a8577f3a8880d2520e68249" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_benchmarks_test-tlb" path="apps/benchmarks/test-tlb/test-tlb" revision="bc97ca190eddf27ca386583b93ad88fad267c70e" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_crypto_libsodium" path="apps/crypto/libsodium/libsodium" revision="cf431ddee7c75b7b57afb6bd031011aae1ca9c93" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_crypto_libtomcrypt" path="apps/crypto/libtomcrypt/libtomcrypt" revision="6aca101b85586d5ca477f5c6479927199ea3f4c1" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_crypto_mbedtls" path="apps/crypto/mbedtls/mbedtls" revision="8dc7407815e718db0a96ac53793c9438894c33aa" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_crypto_tinycrypt" path="apps/crypto/tinycrypt/tinycrypt" revision="1650840e9a352eb0b8da46aa89c4f5e8244d3363" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_examples_unpv13e" path="apps/examples/unpv13e/unpv13e" revision="e080e3e3cb99fb52f523197fa4da018208fcfd7d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_graphics_libyuv" path="apps/graphics/libyuv/libyuv" revision="6f6664ed17b7cd95d72585e198eec4d06a3f0501" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_graphics_lvgl" path="apps/graphics/lvgl/lvgl" revision="0f2a49f588505a00e8b46e25a34581c87291a62a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_interpreters_lua" path="apps/interpreters/lua/lua" revision="88db5f3d7b27ff1836161b9c8a200ebdbc08e44d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_interpreters_quickjs" path="apps/interpreters/quickjs/quickjs" revision="21efc2eae2040660a63d0c401cefac44e4bcc710" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_interpreters_wamr" path="apps/interpreters/wamr/wamr" revision="344bcc14e2dcaf853b62a4baa322b26ba6234a9c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_math_gemmlowp" path="apps/math/gemmlowp/gemmlowp" revision="7b38e5c42278db0eb560738d6dc94051e5c17f82" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_math_kissfft" path="apps/math/kissfft/kissfft" revision="fa5f537e7fa1ead82bc284bce1ef19a0c0ffd627" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_math_libtommath" path="apps/math/libtommath/libtommath" revision="887fb497a555d175bcd26810f758d381d600bbc0" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_math_ruy" path="apps/math/ruy/ruy" revision="2f41713b20764bb9748c31323fafa6edab25bddc" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_mlearning_cmsis-nn" path="apps/mlearning/cmsis-nn/cmsis-nn" revision="70fd8242d99eb604afc642ee75a9114b4b357db7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_mlearning_cmsis_CMSIS_5" path="apps/mlearning/cmsis/CMSIS_5" revision="0cdf88bf6b98332a80876190bed2b8a8e0446988" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_mlearning_tflite-micro" path="apps/mlearning/tflite-micro/tflite-micro" revision="e2ebfbfe176f422628b85ab5579df3b862d99fca" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_cjson_cJSON" path="apps/netutils/cjson/cJSON" revision="48ab0a605ddab58ae91c8bc4a6c47191502a2971" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_connectedhomeip" path="apps/netutils/connectedhomeip/connectedhomeip" revision="e88637b3d1db14f3dc307f1db46791f8cf6fca1f" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_connectedhomeip_inipp" path="apps/netutils/connectedhomeip/inipp" revision="0103a302dc414ff001508336fecdfe15cdb276a8" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_connectedhomeip_nlassert" path="apps/netutils/connectedhomeip/nlassert" revision="3ae1c0eb1db79acedf841d2f3f0afc73910fdd98" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_connectedhomeip_nlio" path="apps/netutils/connectedhomeip/nlio" revision="da7c8ea98efb7f07fe32d8bbc8570b4252035da4" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_connectedhomeip_nlunit-test" path="apps/netutils/connectedhomeip/nlunit-test" revision="03091035b017efb8641d139cb31b71ab06b1937b" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_connectedhomeip_pigweed" path="apps/netutils/connectedhomeip/pigweed" revision="019535e5307012599caa794a55e5a45665d6c30f" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_jsoncpp" path="apps/netutils/jsoncpp/jsoncpp" revision="85100e9efd2c156ce6e0c900682bba6d794c05a2" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_libwebsockets" path="apps/netutils/libwebsockets/libwebsockets" revision="220548239303c18e55734dae54e12cf7d974c9e2" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_netutils_mqttc_MQTT-C" path="apps/netutils/mqttc/MQTT-C" revision="1f877df0e3878de037589b097bba1501ede92600" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_system_adb_microADB" path="apps/system/adb/microADB" revision="4c4a39770e45aec445e8512baebe77cafde3730a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_system_argtable3" path="apps/system/argtable3/argtable3" revision="be1e2569d43a0abcb21e065afc2723ea92601ef8" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_system_flatbuffers" path="apps/system/flatbuffers/flatbuffers" revision="dbfb86ab8ef220418c501272be51324cfa122e4f" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_system_libuv" path="apps/system/libuv/libuv" revision="c6dfc6d3af3fd38cdbaac112cf62d8fb71c8eaef" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_system_zlib" path="apps/system/zlib/zlib" revision="e75175b0745c1c9d6b1e837509e8983b314ef942" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_testing_cmocka" path="apps/testing/cmocka/cmocka" revision="50f25ede3c3a29ca3c304240661d6b565ff9bc84" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_testing_drivers_nist-sts" path="apps/testing/drivers/nist-sts" revision="e1dd7691c86fb320d9dc3b66976203a1559a9f5a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_testing_fff" path="apps/testing/fff/fff" revision="20d36afa8d0c73d86e1c6ceabdbe8ce78436f271" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_testing_libc-test" path="apps/testing/libc-test/libc-test" revision="1e5ff08a5656b45319288ccb47a3385cac9cad59" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_testing_ltp" path="apps/testing/ltp/ltp" revision="aab50c8395f380d3a4d639b3a08f5156876e7e94" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_testing_mm_stressapptest" path="apps/testing/mm/stressapptest/stressapptest" revision="ccf1d4981d0b2974988080948fcb440ee3602b06" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="apps_testing_unity_Unity" path="apps/testing/unity/Unity" revision="895ebac495d4741afddf3c34787f526e8e0efae3" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="build" revision="305cea66a8efc749a958d8410f736e640c49496b" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="docs" revision="cb0389919ea4fc86774702fb36c08ee9b1366e6c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external" revision="9ae61d24354f0da52245f3103aa52bffaaeb21a3" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_Ne10" path="external/Ne10/Ne10" revision="d1e389215c09f44708bea4062d605faa5a43de25" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_aac" path="external/aac/aac" revision="cba4dfd48910f9d3c2150d9289a77bac91f1d39d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_abseil-cpp" path="external/abseil-cpp/abseil-cpp" revision="980310667a0c8ccefcb65407cafa0548d3171b86" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_frameworks_native" path="external/android/frameworks/native" revision="ec3ba2a0fae265a0f725a5313f09d48865af1257" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_hardware_interfaces" path="external/android/hardware/interfaces" revision="e6db26d0629568bd9b49771ed7ccaf13d427f860" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_hardware_libhardware" path="external/android/hardware/libhardware" revision="7d68efa2db12167f76219bf6edabe7a323899ba7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_chre" path="external/android/system/chre/chre" revision="3b926126cfe2036ced3f9ebafdbff637d11a06e0" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_chre_chre_host_nuttx" path="external/android/system/chre/chre/host/nuttx" revision="f33017caeee624a856c655736d34a891fbcdee36" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_core" path="external/android/system/core" revision="c62af19842dbb2af5be708f658ff61705e2bc8a8" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_keymaster" path="external/android/system/keymaster" revision="c5ab862dbab6a91a18099e2fe4ecb04397dad464" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_libbase" path="external/android/system/libbase" revision="cd2538ad3af094fde958ff2cc0a44f2930a62692" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_libcppbor" path="external/android/system/libcppbor" revision="2715548b2addee65d8757a791015925cfc1ae114" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_libfmq" path="external/android/system/libfmq" revision="243df2711b791dce08c4262eb777a2ac9cd46893" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_libhidl" path="external/android/system/libhidl" revision="d034303b5b49b8efd8327c610b3fd6c56e5b4103" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_libhwbinder" path="external/android/system/libhwbinder" revision="f53ed5b771b3ab7383501cf2d5843967eb5024e7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_logging" path="external/android/system/logging" revision="530a025188baa485f5ec0cd6f31baf760abf8524" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_security" path="external/android/system/security" revision="4979b8befe9b26d55c9065c1f59b7e35b6d854e6" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_tools_aidl" path="external/android/system/tools/aidl" revision="c039ff9da152acedd84ba9dda7383892dae9b354" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_android_system_tools_hidl" path="external/android/system/tools/hidl" revision="e824e10c635eb411dc777526a00270faab7ee056" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_atomic_queue" path="external/atomic_queue/atomic_queue" revision="882138f5104f8c75538487c12cd2d5a0f47c1d14" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_auto-pts" path="external/auto-pts/auto-pts" revision="b381f26433da9dbd34251a0e19a7067cb155c10f" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_avb" path="external/avb/avb" revision="e1a9f5b92d9cea130b636601a546789e525e82d7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_bailian_sdk" path="external/bailian_sdk" revision="2ce69272069480c9e28f4b202d73d94d9427c1a0" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_bzip2" path="external/bzip2/bzip2" revision="b9c5efb71038dc2fb701369b17fb77b7fbcc9708" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_c-ares" path="external/c-ares/c-ares" revision="2826d12ce6cec3c65c3c8fc5a193d1a85b2d0258" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_cAT" path="external/cAT/cAT" revision="44e433680ac128ffc29d3949781a9b6c3fb3029d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_cmark-gfm" path="external/cmark-gfm/cmark-gfm" revision="e483e6ad1769150252f51ff685ebaf6a44a46c1f" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_cpuid" path="external/cpuid/cpuid" revision="700b8ee9fc9aae410766faa44a7cb103a601f323" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_curl" path="external/curl/curl" revision="7d1e03473bb8c5d409a54df9bb522bc7bdb6d9d8" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_dbus" path="external/dbus/dbus" revision="567d917b5f4ff3524b138c645f7b57d052525867" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_ddelta" path="external/ddelta/ddelta" revision="bea23686a526157f198d91c42092a9c91f2a82f5" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_enet" path="external/enet/enet" revision="9949fcfe3f0b80498dac7ec2a8181d3fc7d67ae2" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_erpc" path="external/erpc/erpc" revision="c41fdf3eb6d24bec7f30432e569ca25570b86abb" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_exfatprogs" path="external/exfatprogs/exfatprogs" revision="39a28c992c1d84ad71924d477dcdf561079196d1" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_ffmpeg" path="external/ffmpeg/ffmpeg" revision="0700f7b436965e09babb08743f1ecbd872737915" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_fluoride" path="external/fluoride/fluoride" revision="eac9bd3507e50504d25b20029c5dc7e3a9b2c387" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_fmtlib" path="external/fmtlib/fmtlib" revision="5e275da273272bc0a148493ee7480f7038ad3d72" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_freetype" path="external/freetype/freetype" revision="54b2004daffa73238555d16e541e0e4ca7887e33" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_freetype_freetype_subprojects_dlg" path="external/freetype/freetype/subprojects/dlg" revision="97efd1124cac0ce97e7435d5f939577450988dd4" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_glib" path="external/glib/glib" revision="aec1a7e47cac4f0ae69a700e1d68a99e0d4b10a7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_glib_glib_subprojects_gvdb" path="external/glib/glib/subprojects/gvdb" revision="28c4ff6fa43c78660979ef901c586c07eb300121" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_googlebenchmark" path="external/googlebenchmark/googlebenchmark" revision="a7501000d80fc03a18189275471caeb951856a78" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_googletest" path="external/googletest/googletest" revision="b1e5e96608ae88c397e36985ff7f54ac0cd9a42e" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_harfbuzz" path="external/harfbuzz/harfbuzz" revision="abcccadc187e896cec3cec8b422a5f9304476968" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_iperf2" path="external/iperf2/iperf2" revision="73d180d1ec9af2b6967bc9ec8c78652a2f144c81" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_iperf3" path="external/iperf3/iperf3" revision="34a6ec719a5f7a1349c97df4cbb4885d1ebc3ee8" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_json-c" path="external/json-c/json-c" revision="3a791af38fc27b7f48b2264bab4516970bb70783" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_ldns" path="external/ldns/ldns" revision="a1c6e68de49be9b154b54f238dc600c7fb1dbb72" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libchrome_modp_b64" path="external/libchrome/modp_b64" revision="63aac1024da82b98085e6d1596ab68444e51b627" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libdivide" path="external/libdivide/libdivide" revision="aef37566589c4753d8edd9d730736ebc178f760d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libexpat" path="external/libexpat/libexpat" revision="8fa659ecda0f9502400bcada68df61d3b76c647e" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libfluoride-sbc" path="external/libfluoride-sbc/libfluoride-sbc" revision="7422eea54e62842b59c7ab3a1db14898bb088733" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libhelix-aac" path="external/libhelix-aac/libhelix-aac" revision="ea7ef3079e978efe6554fce7db6c4e0bcce535d8" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libhelix-mp3" path="external/libhelix-mp3/libhelix-mp3" revision="851130f5495d8bb751fc2a3e7eba344902f78f03" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libjpeg-turbo" path="external/libjpeg-turbo/libjpeg-turbo" revision="02c22ecb49c0599bff03d247927d9389e3ad0b03" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_liblc3" path="external/liblc3/liblc3" revision="0e2d3fc8f2f6c526135a6c63f4594fa200101729" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libldac" path="external/libldac/libldac" revision="f5c0aa773240a6a3930a4da62fef7922dd6ea334" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libopencore-amr" path="external/libopencore-amr/libopencore-amr" revision="c71109da828d2d4b6ca771ec0dc18f360164f438" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libpng" path="external/libpng/libpng" revision="b177095eac387d072611e5d465604d542ae876b2" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libssh" path="external/libssh/libssh" revision="92027298b24580a33f0565f56af973c575c039e4" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libtar" path="external/libtar/libtar" revision="9fc496876558abf8b61dd47f1ab3115b28455cc5" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_libwebp" path="external/libwebp/libwebp" revision="b08da08520a4e7b72c0013686ee0943f00978b2f" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_lz4" path="external/lz4/lz4" revision="8819a7afd05ac29b77c731efdbfa0b797db3e91a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_mdns" path="external/mdns/mdns" revision="99708e952a2df3bca6135f08925bfd9f5ef5282a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_mmc-utils" path="external/mmc-utils/mmc-utils" revision="40d984d6582cdd3a5b3dc1b6660345c9c87c553c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_mtp-responder" path="external/mtp-responder/mtp-responder" revision="aeab0233ebbb60db6f039ece3348ff577623444e" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_nanopb" path="external/nanopb/nanopb" revision="0df20d17318678cc1ab61d49fc5fc5b50da93a36" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_nghttp2" path="external/nghttp2/nghttp2" revision="75349036a8c462e7490b95cd273a8cc9ab18601a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_nng" path="external/nng/nng" revision="aacd92e7be390985f9019387aef51c6bad5ca4c7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_ofono" path="external/ofono/ofono" revision="dd83f417c56ee91d41773ae94b59afb6c2f5a739" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_ofono_ell" path="external/ofono/ell" revision="4c719ebe72126f721a139916d7114261c2a9c41c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_optee_kmgk" path="external/optee/kmgk/kmgk" revision="7a62ec676ad6584d4f35b76edcb37597b438aa2c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_optee_optee_client" path="external/optee/optee_client/optee_client" revision="e7ad6d638815881bbea131b7302387cfe9885f72" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_optee_optee_examples" path="external/optee/optee_examples/optee_examples" revision="5b963f463e820d8febb4a43f2564ce278d84ed76" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_optee_optee_os" path="external/optee/optee_os/optee_os" revision="ec1cc2a251ded6e836163b86384b1b6d883763c4" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_optee_optee_test" path="external/optee/optee_test/optee_test" revision="f21cfe271a8e9a76fc23bb443af6c6a20959d8cf" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_opus" path="external/opus/opus" revision="527d25d8c3442a4f1b259b77717eca09e6c9ab63" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_protobuf" path="external/protobuf/protobuf" revision="d0701ea1a37c26b1e01b2befa54cf865dd6271cb" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_protobuf-c" path="external/protobuf-c/protobuf-c" revision="85b9bd10143c7e287a2e4f9f3b5119552863eda4" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_quirc" path="external/quirc/quirc" revision="7e7c4e462e0b37dc8250413f182edea43328d80d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_rapidjson" path="external/rapidjson/rapidjson" revision="8d8306b9850a1775310c5196b55e076096104ef7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_ril" path="external/ril/ril" revision="8f7a97183a41555b473b1979f844af59d31a151b" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_rlottie" path="external/rlottie/rlottie" revision="01a1855422da2764eb1d9d616ba11f40b4809543" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_rtos-benchmark" path="external/rtos-benchmark/rtos-benchmark" revision="b48767085bfac74828460d38a240deb0cf0d5d2e" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_silk-v3-decoder" path="external/silk-v3-decoder/silk-v3-decoder" revision="292c8413e0f9c734d03116d29501a370993c84c6" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_sqlite" path="external/sqlite/sqlite" revision="219e4f674cc1a7682a1d0e67f5b61dff61adba17" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_stress" path="external/stress/stress" revision="56b8b4bb921e26fa619a218dbae8af1be0324347" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_sysklogd" path="external/sysklogd/sysklogd" revision="7f8e7950c8bfa910b28e5c72be721857881fbd36" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_thorvg" path="external/thorvg/thorvg" revision="45482caa3aee6a91fac2851e461a539de1b41791" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_tinyxml2" path="external/tinyxml2/tinyxml2" revision="9a03449e33faa2366b3db555a995510661e01177" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_unqlite" path="external/unqlite/unqlite" revision="2bdd14826b0ff758648c1110340673bde395a440" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_vector-sil_sil-kit" path="external/vector-sil/sil-kit" revision="74cb5471ec7225fbdecf892853abf7c9c311cc95" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_vector-sil_sil-kit-adapters-qemu" path="external/vector-sil/sil-kit-adapters-qemu" revision="791747321c3676ac5d1bae2d572b47f0b2728f76" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_vector-sil_sil-kit-adapters-vcan" path="external/vector-sil/sil-kit-adapters-vcan" revision="3dad4774b96abb7725c41ba0cf048e2b9a0adca3" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_yoga" path="external/yoga/yoga" revision="4d104004a04526fe1eafc1c7a766fa97b2b2de7c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_zblue" path="external/zblue/zblue" revision="2e5bddcc5284534aaca189346570d32f1a5509f3" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="external_zint" path="external/zint/zint" revision="5d8bcfde097561e90b9af90a05c856bdd4212b81" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks" revision="9118a9e05fb9d2b8523564fd30531fa44c627201" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_bluetooth" path="frameworks/connectivity/bluetooth" revision="028b4ba7e39328acdf23fed0921b7c65aba2001a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_connectivity" path="frameworks/connectivity" revision="205dccf118647b759fcc7033f085c5f8933e73b7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_connectivity_telephony" path="frameworks/connectivity/telephony" revision="bb012ca20aafe6be1f731fc9ba9d32751114be74" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_graphics" path="frameworks/graphics" revision="59f898a3ac5e9b16f79e0f8ee241210ba6b9570b" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_graphics_gpu_tools" path="frameworks/graphics/gpu_tools" revision="6c8ac158d9114329efba2ada5218a184ccde5fe1" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_graphics_uikit" path="frameworks/graphics/uikit" revision="7609f57e55f93dd252fcda8cf2c775cb5e142e7d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_multimedia" path="frameworks/multimedia" revision="4f92457122ce5f3994204898d824d02827c5dcc9" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_multimedia_media" path="frameworks/multimedia/media" revision="6700872e02752527f356abd81386a6017f150ae5" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_multimedia_media_pfw" path="frameworks/multimedia/media/pfw" revision="ec61d3a7a1bc4eb8f7eb2de08c61df9ea5c1a1f3" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes" path="frameworks/runtimes" revision="7f2c8d85d65c6645a8e1e7898866a9f775709f0e" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_ash" path="frameworks/runtimes/ash" revision="0018b6cfa6a016fa283f5309a084ecb2cc874198" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_feature" path="frameworks/runtimes/feature" revision="fa5e43636ed38e9cefdca37d91cd655902b6cefa" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_quickapp" path="frameworks/runtimes/quickapp" revision="4eecf624f1c8c7b0f17eb72918619da6f416d41a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_services" path="frameworks/runtimes/services" revision="fc1098e90f7c8ab594e0c3e9c04fd5666432cefa" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_services_am" path="frameworks/runtimes/services/am" revision="d2c638f37cf134d7a32b56b69f3c40f118d7be22" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_services_brightness" path="frameworks/runtimes/services/brightness" revision="4fece8791bb09c3dbdd991fe8c68f878ae1f2293" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_services_pm" path="frameworks/runtimes/services/pm" revision="380cd048f3618385c845d9cea598c6170520786a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_services_system_server" path="frameworks/runtimes/services/system_server" revision="2f41945917478cae568b09b8c5e8ad500f1ff889" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_services_wm" path="frameworks/runtimes/services/wm" revision="ec0390b2ee2987e3b0644e7b6d6612df1794ffc4" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_services_xmsdemo" path="frameworks/runtimes/services/xmsdemo" revision="2bbd05996709e7d7e70f0e0d1732019c4773af0d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_typescript" path="frameworks/runtimes/typescript" revision="475855d4711092ef113efc306dbbea094a5079ba" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_typescript_ts2native" path="frameworks/runtimes/typescript/ts2native" revision="e23f193b0bd1703c06cd74640ec95971adec9e44" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_typescript_ts2wasm" path="frameworks/runtimes/typescript/ts2wasm" revision="9c917287ba55c6a34b199a2069e4093c70044349" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_runtimes_wasm" path="frameworks/runtimes/wasm" revision="71ae85fca3d5a29109ddc90b58ac4a55035c58a1" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_security" path="frameworks/security" revision="986ba5d72d92cb04827aa984afddbbf2def06597" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_security_optee_vela" path="frameworks/security/optee_vela" revision="496d4f4eb26ff58ec125920b6337a0dc1946d262" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system" path="frameworks/system" revision="0159e518e095759d16b073e9ddf2ce1b9b2f422c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system_binder" path="frameworks/system/binder" revision="08e9f0b395c25420fcdd58c9356c71d31f2a45ed" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system_charger" path="frameworks/system/charger" revision="a49a4668279d91391c571cad81a4796de63e0c39" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system_healthd" path="frameworks/system/healthd" revision="764d6c0cdea139066e5fad82558031cb4df69c5d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system_ota" path="frameworks/system/ota" revision="b2c397bbc004cfe146f1e17779e0bad1876778c4" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system_topics" path="frameworks/system/topics" revision="7b0641123a205d7012959f2efad81e1ac39a0aee" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system_utils" path="frameworks/system/utils" revision="aae0efd0c89224c3b34e439f419d6a8736113430" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system_utils_uv" path="frameworks/system/utils/uv" revision="e35e285309fcd4a13134a3495eac545750c59645" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="frameworks_system_vibrator" path="frameworks/system/vibrator" revision="bae02204c0af9ff7eaccf677ece6dee5af3e6ef8" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="libs_openvela_vela" path="vendor/openvela/boards/vela/libs" revision="737880db2d25109811e240d11de6c7e6de3f8cb6" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="libs_sifli_sf32lb52" path="vendor/sifli/boards/sf32lb52/libs" revision="635b0012605ab199eaad311d1ae16fc5ece6ab99" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx" revision="dd92bcf425738734d1b8aed09c2bd4dbe3f2e438" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026">
+    <linkfile src="tools/build.sh" dest="build.sh" />
+  </project>
+  <project name="nuttx-apps" path="apps" revision="dcc6a95c3b323e533c98fde8fb209f99e24f0fdd" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_drivers_mtd_dhara" path="nuttx/drivers/mtd/dhara" revision="2de34abb20859d194891727ca8dbfcda330e995c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_drivers_segger_SystemView" path="nuttx/drivers/segger/SystemView" revision="cc877e5c874f0766fb0a4d99c9d50dc4747a91e2" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_fs_fatfs" path="nuttx/fs/fatfs/fatfs" revision="6e433f195f15e0f5d8a3b170f53694b9c4dc6f4b" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_fs_littlefs_littlefs" path="nuttx/fs/littlefs/littlefs" revision="70ab38f68bd97304647d938ffd5be904a22b9fab" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_fs_yaffs" path="nuttx/fs/yaffs/yaffs" revision="be92d28615e4203b2128a2752e481816624ca36a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libc_audio_libsrc_libsamplerate" path="nuttx/libs/libc/audio/libsrc/libsamplerate" revision="f9a997dd9242cf00174a4f4429e67c5020b0eec7" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libc_fdt_dtc" path="nuttx/libs/libc/fdt/dtc" revision="97a696bceadddc8828061ac905b773ef1e6b1dd3" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libc_gnssutils_minmea" path="nuttx/libs/libc/gnssutils/minmea" revision="5a33985ead6f2db557b69cf73053cba80e9ab7ea" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libm_libmcs" path="nuttx/libs/libm/libmcs/libmcs" revision="53b8f0d8b8054188821106df04394ce0114cf2da" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libm_newlib" path="nuttx/libs/libm/newlib/newlib" revision="91781fb08a58dde8dbc73433065df3d8da2a6079" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libm_openlibm" path="nuttx/libs/libm/openlibm/openlibm" revision="76ed80012a23bb9b8ba141e144926ebe07baf353" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libxx_libcxx" path="nuttx/libs/libxx/libcxx/libcxx" revision="920e06cf46707cb2ed7a8ce8cabf4728b22a708e" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libxx_libcxxabi" path="nuttx/libs/libxx/libcxxabi/libcxxabi" revision="3d27ac1876a09b61b5f6516b5e19d361571f6823" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_libs_libxx_libstdcpp" path="nuttx/libs/libxx/libstdc++/libstdc++" revision="43e48a2b29d7232d8d57bfd5550648335051bb87" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_mm_tlsf" path="nuttx/mm/tlsf/tlsf" revision="596c37fbde53b5a051f93320d3ddd7f17c638454" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_openamp_libmetal" path="nuttx/openamp/libmetal" revision="82a914c1b474555172c2d63ab8458928accaf512" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="nuttx_openamp_open-amp" path="nuttx/openamp/open-amp" revision="d6a4031adf64b10e192602f834d311f90a88a4d9" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="packages" revision="927618869eee9129c3670cd54397ede523c57d64" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="packages_ai_agent" path="packages/ai_agent" revision="31faed70f683a6f5e690437c5507891360f0814a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="packages_apps" path="packages/apps" revision="334f0930712cf2c7919dc8638399ad339283e11c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="packages_demos" path="packages/demos" revision="08b94dd9cdf6e5bf7aad855c6ba43afd75bc5d2d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="packages_fe_examples" path="packages/fe/examples" revision="ca8bfab1c1abe6adfd9b1f1c1f31626851afd379" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="prebuilts_clang_linux_wasm" path="prebuilts/clang-wasm/linux-x86_64" revision="b3beb9cffa0bea9e8eee07dd4622b4fb6bb922ac" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" clone-depth="1" />
+  <project name="prebuilts_emulator_skins" path="prebuilts/emulator/skins" revision="34673df29ed02f37989c1bf91525fda64f2a09f5" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="prebuilts_emulator_tools" path="prebuilts/emulator/tools" revision="ee75bcc141f3c55e23268a43faca9c4465652b3d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" clone-depth="1">
+    <linkfile src="emulator.sh" dest="emulator.sh" />
+  </project>
+  <project name="prebuilts_tools" path="prebuilts/tools" revision="6a0e3dab6700dfea61114809727ecdaa75cdb30a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" clone-depth="1" />
+  <project name="tests" revision="c4852f78b6bf67483a8de4f68884a25096f6614c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor" revision="306db14707f55b7dadaa59053443a22e1f17959b" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_SpacemiT" path="vendor/SpacemiT" revision="e8912100adbd537e78c120fdabb9e81e2d08a33d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_allwinnertech" path="vendor/allwinnertech" revision="1676386193f0e710121e710935f1757c0f34b662" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_artinchip" path="vendor/artinchip" revision="4e1d473a6c5466c1ef9c5656a4fb91532b558aba" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_beken" path="vendor/beken" revision="332d2f16615d0c86c7148a51f1200a678cb7c173" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_bes" path="vendor/bes" revision="36465377d944a575ce8a0c7ba45259f5c6c61ea8" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_espressif" path="vendor/espressif" revision="afe1b8c5ec67ff76eda48ee84d9dd116df2814ba" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_flagchip" path="vendor/flagchip" revision="9e363edad8f731e48d176a363303d436bb3d8f35" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_gigadevice" path="vendor/gigadevice" revision="838aae8ecb474675e1f350528909ddedc7ac741a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_gravityxr" path="vendor/gravityxr" revision="8072ba79b219166c1ae023562dc269050bfc12c2" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_infineon" path="vendor/infineon" revision="af3b806621e3a26572872f668b19d1302f41f4cd" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_infineon_chips_aurix_illd" path="vendor/infineon/chips/aurix/illd" revision="537d7f70f5430d26c3ba13eca8b7622728d14d2c" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_infineon_chips_aurix_illd_tc4x_Libraries" path="vendor/infineon/chips/aurix/illd/tc4x/Libraries" revision="aa7925cc07a88baacdc2967a72b40d22cce7156a" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_loongsonpi" path="vendor/loongsonpi" revision="57543451214712c8518aca5fd002415940b820dd" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_openvela" path="vendor/openvela" revision="f3526176a855b53c081673d5247be418a3624326" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_openvela_boards_sil" path="vendor/openvela/boards/sil" revision="6b4ec113719db6ff7e9467a923d2adbe4e8b1e6b" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_rockchip" path="vendor/rockchip" revision="8755815bf19995ce8de68a22d0d12b20c285f4ea" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_sifli" path="vendor/sifli" revision="af6f365eaa04a674af0467aa1a803bc4c77691ba" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_st" path="vendor/st" revision="575a34c9bb2cfd0d1b3babd840b00b5e191c55a4" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_template" path="vendor/template" revision="6ce6f873b33848e1e699577a6eebc4d49807c7d0" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_xiaomi" path="vendor/xiaomi" revision="ef553b8a6870ce36258d44b3df686c8ddea5a98d" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_xiaomi_pyxis" path="vendor/xiaomi/vela/pyxis" revision="517a3dd282de09a0a4f4781d901d9c3f4a50cdb3" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+  <project name="vendor_xiaomi_vela" path="vendor/xiaomi/vela" revision="c0a5090eb0c6d23e8d3f53ddbee89ed47adb68aa" upstream="dev-ai-contest-2026" dest-branch="dev-ai-contest-2026" />
+<project name="contest2026_302_xinxinxiangrong" path="contest2026_302_xinxinxiangrong" remote="openvela" revision="dev-ai-contest-2026"><linkfile src="app/knowledge_cards" dest="packages/demos/knowledge_cards" /></project><!--Public dependencies are pinned. Contest self-reference follows the submission branch to avoid a circular commit hash. Apply board/bes2800bp/knowledge-cards.patch after sync.--></manifest>

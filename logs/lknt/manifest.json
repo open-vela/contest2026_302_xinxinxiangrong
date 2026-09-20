@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "team_id": "contest2026_302_xinxinxiangrong",
   "github_login": "lknt",
-  "generator": "claude-code-collector@1.3.0",
-  "updated_at": "2026-09-20T03:23:27.331Z",
+  "generator": "codex-collector@1.3.0",
+  "updated_at": "2026-09-20T13:16:18.202Z",
   "sessions": [
     {
       "session_id": "05d57e17-bf07-41c8-a19b-7b9562ab9395",
@@ -32,9 +32,9 @@
       "session_id": "01a0bc93-1de2-7f11-aa68-e6cbd671f9f1",
       "tool": "codex",
       "started_at": "2026-09-20T02:09:13.324Z",
-      "last_event_at": "2026-09-20T03:23:27.331Z",
-      "event_count": 117,
-      "raw_event_count": 425,
+      "last_event_at": "2026-09-20T13:16:18.197Z",
+      "event_count": 357,
+      "raw_event_count": 1336,
       "file_path": "logs/lknt/2026-09-20/codex__01a0bc93-1de2-7f11-aa68-e6cbd671f9f1.jsonl",
       "collection_mode": "cli",
       "health": "ok"

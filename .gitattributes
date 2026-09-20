@@ -1,0 +1,3 @@
+# Patch context lines and raw compiler logs deliberately preserve whitespace.
+*.patch whitespace=-blank-at-eol
+docs/evidence/build.txt whitespace=-blank-at-eol

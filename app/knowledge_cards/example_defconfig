@@ -1,0 +1,93 @@
+############################################################################
+# Knowledge Cards Demo 示例配置
+#
+# 将以下配置添加到你的 defconfig 文件中
+# 位置：vendor/bes/boards/best1700_ep/aos_evb/configs/ap/defconfig
+############################################################################
+
+############################################################################
+# 基础依赖
+############################################################################
+
+# LVGL 图形库
+CONFIG_LV_USE_LIBUV=y
+CONFIG_LV_FONT_MONTSERRAT_16=y
+CONFIG_LV_FONT_MONTSERRAT_20=y
+CONFIG_LV_FONT_MONTSERRAT_24=y
+CONFIG_LV_FONT_MONTSERRAT_32=y
+
+# cJSON 库
+CONFIG_CJSON_LIB=y
+
+# libuv 事件循环
+CONFIG_LIBUV=y
+
+# 网络支持
+CONFIG_NET=y
+CONFIG_NET_TCP=y
+CONFIG_NET_SOCKET=y
+
+# Media API (音频支持)
+CONFIG_MEDIA=y
+CONFIG_AUDIO=y
+
+############################################################################
+# Knowledge Cards 配置
+############################################################################
+
+# 启用知识闪卡 Demo
+CONFIG_KNOWLEDGE_CARDS_DEMO=y
+
+# 任务优先级和栈大小
+CONFIG_KNOWLEDGE_CARDS_PRIORITY=100
+CONFIG_KNOWLEDGE_CARDS_STACKSIZE=32768
+
+# LLM API 配置
+CONFIG_KNOWLEDGE_CARDS_LLM_ENDPOINT="https://api.openai.com/v1/chat/completions"
+CONFIG_KNOWLEDGE_CARDS_LLM_MODEL="gpt-3.5-turbo"
+CONFIG_KNOWLEDGE_CARDS_LLM_MAX_TOKENS=512
+
+# 语音识别配置
+CONFIG_KNOWLEDGE_CARDS_VOICE_ENABLED=y
+CONFIG_KNOWLEDGE_CARDS_VOICE_STREAM="Capture"
+CONFIG_KNOWLEDGE_CARDS_VOICE_SAMPLE_RATE=16000
+CONFIG_KNOWLEDGE_CARDS_VOICE_BUFFER_SIZE=131072
+
+############################################################################
+# 可选：WiFi 配置（如果需要联网）
+############################################################################
+
+CONFIG_WIFI=y
+CONFIG_WIFI_BES=y
+
+############################################################################
+# 可选：WebSocket 支持（用于实时语音识别）
+############################################################################
+
+# CONFIG_NETUTILS_LIBWEBSOCKETS=y
+
+############################################################################
+# 可选：火山引擎语音识别
+############################################################################
+
+# CONFIG_AI_VOLC_PLUGIN=y
+# CONFIG_VOLC_PULGIN_API_KEY="your-api-key-here"
+
+############################################################################
+# 环境变量（在启动脚本中设置）
+############################################################################
+
+# 在 init.d/rcS 中添加：
+# export LLM_API_KEY="your-openai-api-key"
+# export LLM_ENDPOINT="https://api.openai.com/v1/chat/completions"
+# export LLM_MODEL="gpt-3.5-turbo"
+
+############################################################################
+# 启动命令
+############################################################################
+
+# 编译后，在 NSH 中运行：
+# knowledge_cards
+#
+# 或指定初始主题：
+# knowledge_cards "CSAPP"

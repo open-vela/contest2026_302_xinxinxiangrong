@@ -1,0 +1,5 @@
+*.o
+*.pyc
+__pycache__/
+knowledge_cards_tests
+# Keep logs and generated source fonts tracked. Firmware stays outside Git.
